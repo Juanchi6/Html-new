@@ -1,0 +1,28 @@
+ body{
+
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 100vh;
+
+    .avatar{
+        position: absolute;
+        top: -12px;
+        left: -3px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+    .card{
+        width: 300px;
+        padding: 20px;
+        border-radius: 15px; 
+        position: relative;
+        text-align: center;
+        border: 2px solid black;
+    }
+ }
